@@ -24,6 +24,8 @@ public class Profissionais {
     private String nome;
     private String rg;
     private String idade;
+    private String cpf;
+
 
     @Enumerated(EnumType.STRING)
     private Escolaridade escolaridade;
@@ -39,6 +41,7 @@ public class Profissionais {
         this.nome = dados.nome();
         this.rg = dados.rg();
         this.idade = dados.idade();
+        this.cpf =  dados.cpf();
         this.escolaridade = dados.escolaridade();
         this.profissao = dados.profissao();
         this.endereco = new Endereco(dados.endereco());

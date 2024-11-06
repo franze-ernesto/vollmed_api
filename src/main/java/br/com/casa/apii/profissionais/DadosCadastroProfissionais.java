@@ -7,6 +7,7 @@ public record DadosCadastroProfissionais(
         String nome,
         String rg,
         String idade,
+        String cpf,
         Escolaridade escolaridade,
         Profissao profissao,
         DadosEndereco endereco
